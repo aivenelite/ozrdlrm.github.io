@@ -28,7 +28,7 @@
 
     .question {
       font-size: 2.5rem;
-      color: black; /* text color black */
+      color: black;
       text-shadow: 1px 1px 2px #ff69b4;
       opacity: 0;
       transform: scale(0.8);
@@ -165,7 +165,7 @@
     "Cidden Affedicek misin?!? ",
     "Bencede Affetceksin! ",
     "YUZDE YUZ EMINIZ DIME",
-    "TMM AFFETTIN "
+    "TMM AFFETTIN EMINIZ "
   ];
 
   const stickers = [
@@ -198,10 +198,10 @@
 
   nextBtn.addEventListener('click', showStep);
 
-  // Start with first question
+
   showStep();
 
-  // Generate multiple hearts dynamically
+  
   for (let i = 0; i < 30; i++) {
     const heart = document.createElement('div');
     heart.classList.add('heart');
@@ -213,4 +213,5 @@
 </script>
 
 </body>
+
 </html>
